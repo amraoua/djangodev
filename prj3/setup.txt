@@ -1,0 +1,26 @@
+http://docs.wagtail.io/en/v1.5/
+
+1. Install Wagtail
+
+pip install wagtail
+
+2. Start your site
+
+wagtail start mysite
+
+3. Set up the database
+
+cd mysite
+
+python manage.py migrate
+
+4. Create an administrator account
+
+python manage.py createsuperuser
+
+python manage.py runserver
+
+Now sign in at http://127.0.0.1:8000/admin/. 
+
+For the next steps on building your Wagtail site, see our ten minute guide.
+http://docs.wagtail.io/en/latest/getting_started/tutorial.html
