@@ -7,7 +7,7 @@ prj2: Djaodjin Saas
 prj3: Wagtail demo
 prj4: django-crudbuilder
 prj5: crud
-
+prj6: Cookiecutter Django
 
 
 
@@ -32,3 +32,9 @@ https://github.com/bitmazk/django-event-rsvp
 
 https://github.com/django-wiki/django-wiki
 https://github.com/juanpex/django-model-report/
+https://github.com/wildfish/wildfish-django-starter/
+https://github.com/wildfish/cookiecutter-django-crud
+
+https://github.com/chrisdev/wagtail-cookiecutter-foundation
+http://wagtail.chrisdev.com/
+http://wagtail-cookiecutter-foundation.readthedocs.io/en/latest/

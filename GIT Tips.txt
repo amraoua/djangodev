@@ -1,0 +1,24 @@
+Git is a time machine for coding !!!
+
+git remote add origin git@github.com:amraoua/djangodev.git
+git remote
+git status
+
+creates a new branch and switch to it
+git checkout -b gh-pages
+
+
+git add .
+
+git commit -m 'initial file commit message'
+git push origin master
+
+Create a git repo and push it there:
+
+$ git init
+$ git add .
+$ git commit -m "first awesome commit"
+$ git remote add origin git@github.com:pydanny/redditclone.git
+$ git push -u origin master
+
+

@@ -1,0 +1,12 @@
+Unzip
+
+sudo apt-get install unzip
+unzip file.zip -d destination_folder
+
+In Linux, you can use the following find command to locate the settings.py file
+and the corresponding line specifying the root urls.py:
+$ find . -iname settings.py -exec grep -H 'ROOT_URLCONF' {} \;
+./projectname/settings.py:ROOT_URLCONF = 'projectname.urls'
+$ ls projectname/urls.py
+projectname/urls.py
+
