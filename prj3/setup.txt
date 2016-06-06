@@ -1,5 +1,9 @@
 http://docs.wagtail.io/en/v1.5/
 
+0. Install and activate your virtual environment
+
+source /home/ubuntu/workspace/prj3/env/bin/activate
+
 1. Install Wagtail
 
 pip install wagtail
@@ -19,6 +23,9 @@ python manage.py migrate
 python manage.py createsuperuser
 
 python manage.py runserver
+sudo python manage.py runserver $IP:$PORT
+
+
 
 Now sign in at http://127.0.0.1:8000/admin/. 
 

@@ -1,0 +1,22 @@
+virtualenv -p python2.7 my_env
+or
+virtualenv --python=/usr/bin/python3.5 py35env
+
+source /home/ubuntu/workspace/prj4/py35env/bin/activate
+
+/////pip install django-crudbuilder
+https://github.com/asifpy/django-crudbuilder.git 
+
+django-admin.py startproject --template=https://github.com/asifpy/django-crudbuilder/archive/master.zip
+
+pip install -r testsite/requirements.txt
+
+$ python manage.py runserver
+
+sudo python manage.py runserver $IP:$PORT
+
+
+Add your Stripe keys in the credentials file.
+
+STRIPE_PUB_KEY = "pk_test_ppZEj8M9pZEKYZYMY1YwfIyd"
+STRIPE_PRIV_KEY = "sk_test_b8OAudiBhlfBlQdXVyPZnXWk"
