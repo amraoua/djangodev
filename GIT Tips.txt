@@ -9,7 +9,6 @@ git checkout -b gh-pages
 
 
 git add .
-
 git commit -m 'initial file commit message'
 git push origin master
 
