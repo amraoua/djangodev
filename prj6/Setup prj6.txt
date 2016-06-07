@@ -1,7 +1,0 @@
-pip install cookiecutter
-cookiecutter https://github.com/pydanny/cookiecutter-django
-
-
-virtualenv --python=/usr/bin/python3.5 py35env
-source /home/ubuntu/workspace/prj6/py35env/bin/activate
-

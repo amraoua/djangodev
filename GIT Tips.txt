@@ -7,6 +7,7 @@ git status
 creates a new branch and switch to it
 git checkout -b gh-pages
 
+cd /home/ubuntu/workspace/ 
 
 git add .
 git commit -m 'initial file commit message'
