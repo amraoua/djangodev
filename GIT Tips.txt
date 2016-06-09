@@ -11,6 +11,7 @@ cd /home/ubuntu/workspace/
 
 git add .
 git commit -m 'initial file commit message'
+git commit -a
 git push origin master
 
 Create a git repo and push it there:
@@ -20,5 +21,7 @@ $ git add .
 $ git commit -m "first awesome commit"
 $ git remote add origin git@github.com:pydanny/redditclone.git
 $ git push -u origin master
+
+
 
 
