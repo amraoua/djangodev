@@ -1,5 +1,7 @@
 Git is a time machine for coding !!!
 
+
+
 git remote add origin git@github.com:amraoua/djangodev.git
 git remote
 git status
@@ -9,10 +11,11 @@ git checkout -b gh-pages
 
 cd /home/ubuntu/workspace/ 
 
-git add .
+git add *
 git commit -m 'initial file commit message'
 git commit -a
 git push origin master
+git push
 
 Create a git repo and push it there:
 
@@ -22,6 +25,22 @@ $ git commit -m "first awesome commit"
 $ git remote add origin git@github.com:pydanny/redditclone.git
 $ git push -u origin master
 
+http://www.gpickin.com/index.cfm/blog/git-for-dummies-using-gitignore-files-to-exclude-certain-files-and-folders
+
+Create a file called .gitignore in your repository.
 
 
+touch .gitignore
+or 
+vim  .gitignore
+:q! to cancel
+:wq to save
+type "i" or "insert"
+Add the text "*" to this file.
+Save.
+cat .gitignore
 
+
+git rm -r --cached venvs
+git commit -m "Ignoring and removing venvs from repo" 
+git push
