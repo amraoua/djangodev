@@ -1,16 +1,26 @@
+sudo pip install virtualenv --upgrade
+sudo apt-get install python-setuptools
+
+cd /home/ubuntu/workspace/venvs/
+
+virtualenv --python=/usr/bin/python3.5 prj1_py35env --no-site-packages
 
 
-cd /home/ubuntu/workspace/prj1/
-virtualenv --python=/usr/bin/python3.5 py35env
+source /home/ubuntu/workspace/venvs/prj1_py35env/bin/activate
+cd /home/ubuntu/workspace/Projects/prj1/saebyeog/src
 
-source /home/ubuntu/workspace/prj1/py35env/bin/activate
+pip install -r requirements.txt
+pip install --verbose -r requirements.txt
+???
+pip install --upgrade -r requirements.txt
+???
 
-pip install requirements.txt
 django-admin.py startproject --template=https://github.com/arocks/edge/archive/master.zip --extension=py,md,html,env saebyeog
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 
+cd /home/ubuntu/workspace/Projects/prj1/saebyeog/src
 sudo python manage.py runserver $IP:$PORT
 
 
@@ -28,3 +38,9 @@ cd projectsrcdir
 
 pip install -r projectsrcdir/requirements.txt
 
+
+
+issues pip install requirements
+
+$ pip install --download=/tmp -r requirements.txt
+$ pip install --user --no-index --find-links=/tmp -r requirements.txt

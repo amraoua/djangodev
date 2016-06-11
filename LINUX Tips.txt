@@ -1,6 +1,13 @@
 Version of UBUNTU:
 lsb_release -apt
 
+Setup Time:
+
+sudo sudo
+echo "Europe/Zurich" > /etc/timezone 
+dpkg-reconfigure -f noninteractive tzdata
+
+
 Unzip
 
 sudo apt-get install unzip
@@ -60,3 +67,5 @@ Ctrl+T Check spelling.
 Ctrl+W Find a word or phrase. At the prompt, use the cursor keys to go through previous search terms, or hit Ctrl+R to move into replace mode. Alternatively you can hit Ctrl+T to go to a specific line.
 Ctrl+C Show current line number and file information.
 Ctrl+G Get help; this provides information on navigating through files and common keyboard commands.
+
+https://www.sdewitte.net/2010/10/20080922vi-les-bases-3/

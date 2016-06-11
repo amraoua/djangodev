@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% load staticfiles %}
+
 {% load crispy_forms_tags %}
 
 {% block title %}{{ block.super }}About{% endblock %}
@@ -33,21 +34,21 @@
     </div>
     <div class="row">
       <div class="col-lg-4">
-        <div class="text-center"><img class="img-circle centered" src="http://lorempixel.com/128/128/people/9/" alt="profile pic"></div>
+        <div class="text-center"><img class="img-circle centered" src="{% static '/media/Abdelhafid-KRAI-1-95x115.jpg.140x140_q85_crop.png' %}" alt="profile pic"></div>
         <p class="heavy text-center">L'équipe</p>
         <h2 class="heavy text-center">Compétents et Motivés</h2>
         <p>Ceinture Noir 5 eme DAN de Tae Kwon Do</br> Moniteur diplomé kukkiwon et Adeps</p>
       </div>
       <div class="col-lg-4">
-        <div class="text-center"><img class="img-circle centered" src="http://lorempixel.com/128/128/people/2/" alt="profile pic"></div>
+        <div class="text-center"><img class="img-circle centered" src="{% static '/media/Charleroi_-_logo_2015_-_noir.png' %}" alt="profile pic"></div>
         <p class="heavy text-center">Les Membres</p>
-        <h2>De 5 à 95 ans</h2>
+        <h2 class="heavy text-center">De 5 à 95 ans</h2>
         <p>Le Tae Kwon Do est un sport qui se pratique à tous les ages.</p>
       </div>
       <div class="col-lg-4">
-        <div class="text-center"><img class="img-circle centered" src="http://lorempixel.com/128/128/people/1/" alt="profile pic"></div>
+        <div class="text-center"><img class="img-circle centered" src="{% static '/media/Charleroi_-_logo_2015_-_noir.png' %}" alt="profile pic"></div>
         <p class="heavy text-center">L'Infrastrucure</p>
-        <h2>Salle et Matériel</h2>
+        <h2 class="heavy text-center">Salle et Matériel</h2>
         <p>La salle est située en plein coeur de Charleroi, facile d'accès et très bien équipée en matériel de Tae Kwon Do</p>
       </div>
     </div>
